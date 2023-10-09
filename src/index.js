@@ -1,4 +1,4 @@
-import './images/index';
+import './images/index.js';
 import './styles/_index.scss';
 
 const newsletterSubscribeFormElement = document.querySelector(

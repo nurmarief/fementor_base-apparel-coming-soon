@@ -16,5 +16,10 @@ module.exports = {
         ],
       },
     ],
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      { js: 'always', jsx: 'never' },
+    ],
   },
 };
