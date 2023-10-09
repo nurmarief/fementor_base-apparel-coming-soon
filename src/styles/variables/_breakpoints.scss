@@ -1,0 +1,14 @@
+@use 'sass:math';
+@use 'sass:map';
+@use './font-size' as fs;
+
+$font-size-base: fs.$font-size-base;
+
+$breakpoints: (
+  'mobile': math.div(375px, $font-size-base) * 1em,
+  'mobile-lg': math.div(576px, $font-size-base) * 1em,
+  'tablet': math.div(768px, $font-size-base) * 1em,
+  'tablet-lg': math.div(992px, $font-size-base) * 1em,
+  'desktop': math.div(1200px, $font-size-base) * 1em,
+  'desktop-lg': math.div(1400px, $font-size-base) * 1em,
+);

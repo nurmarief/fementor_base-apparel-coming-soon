@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+  <body>
+    <main class="landing-page">
+      <a
+        class="landing-page__logo landing-page__logo_display_tablet-and-smaller-only"
+        href="#"
+        aria-label="Go to home page"
+      >
+        <img
+          class="img"
+          src="./images/logo.svg"
+          alt=""
+        />
+      </a>
+      <picture class="landing-page__hero-image">
+        <source
+          media="(min-width:48em)"
+          srcset="./images/hero-desktop.jpg"
+        />
+        <img
+          class="img"
+          src="./images/hero-mobile.jpg"
+          alt=""
+        />
+      </picture>
+      <div class="landing-page__content">
+        <a
+          class="landing-page__logo landing-page__logo_display_tablet-lg-and-larger-only"
+          href="#"
+          aria-label="Go to home page"
+        >
+          <img
+            class="img"
+            src="./images/logo.svg"
+            alt=""
+          />
+        </a>
+        <h1 class="landing-page__heading-1">
+          <span class="landing-page__heading-1_lead">WE'RE</span>
+          <span>COMING</span>
+          <span>SOON</span>
+        </h1>
+        <p class="landing-page__description">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+        <form
+          class="newsletter-subscribe-form"
+          novalidate
+        >
+          <div class="newsletter-subscribe-form__form-control">
+            <label
+              class="newsletter-subscribe-form__label"
+              for="email"
+              inert
+              >Email address</label
+            >
+            <input
+              class="newsletter-subscribe-form__input"
+              type="email"
+              id="email"
+              name="email"
+              placeholder=""
+              required
+            />
+            <img
+              class="newsletter-subscribe-form__error-icon newsletter-subscribe-form__error-icon_is-hidden"
+              src="./images/icon-error.svg"
+              alt=""
+              width="15px"
+            />
+            <button
+              class="newsletter-subscribe-form__button"
+              type="submit"
+              aria-label="submit form"
+            >
+              <img
+                src="./images/icon-arrow.svg"
+                alt=""
+              />
+            </button>
+          </div>
+          <p
+            class="newsletter-subscribe-form__error-msg newsletter-subscribe-form__error-msg_is-hidden"
+          >
+            Please provide a valid email
+          </p>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

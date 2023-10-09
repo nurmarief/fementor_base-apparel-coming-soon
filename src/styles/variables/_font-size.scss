@@ -1,0 +1,72 @@
+$font-size-base: 16px;
+
+//------------------- DISPLAY HEADING ------------------
+$font-size-display-heading-desktop: (
+  'display-1': 3.75em,
+  'display-2': 3.125em,
+  'display-3': 2.5em,
+  'display-4': 2.125em,
+);
+
+$font-size-display-heading-tablet: (
+  'display-1': 3.125em,
+  'display-2': 2.5em,
+  'display-3': 2.125em,
+  'display-4': 1.5em,
+);
+
+$font-size-display-heading-mobile: (
+  'display-1': 2.5em,
+  'display-2': 2.125em,
+  'display-3': 2.125em,
+  'display-4': 1.5em,
+);
+
+// ----------------------- HEADING ---------------------
+
+$font-size-heading-desktop: (
+  'h1': 2.125em,
+  'h2': 1.875em,
+  'h3': 1.5em,
+  'h4': 1.25em,
+  'h5': 1.125em,
+  'h6': 1em,
+);
+
+$font-size-heading-tablet: (
+  'h1': 2.125em,
+  'h2': 1.5em,
+  'h3': 1.25em,
+  'h4': 1.125em,
+  'h5': 1em,
+  'h6': 1em,
+);
+
+$font-size-heading-mobile: (
+  'h1': 1.5em,
+  'h2': 1.125em,
+  'h3': 1.125em,
+  'h4': 1.125em,
+  'h5': 1em,
+  'h6': 1em,
+);
+
+// ----------------------- PARAGRAPH -------------------
+
+$font-size-paragraph-desktop: (
+  'lead': 1.25em,
+  'body': 1em,
+  'small': 0.875em,
+);
+
+$font-size-paragraph-tablet: (
+  'lead': 1.125em,
+  'body': 1em,
+  'small': 0.875em,
+);
+
+$font-size-paragraph-mobile: (
+  'lead': 1em,
+  'body': 1em,
+  'small': 0.875em,
+);

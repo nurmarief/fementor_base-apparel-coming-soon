@@ -1,0 +1,38 @@
+@use 'sass:map';
+@use '../variables/breakpoints' as bp;
+
+@mixin mobile-lg-display {
+  @media screen and (min-width: map.get(bp.$breakpoints, 'mobile')) {
+    @content;
+  }
+}
+
+@mixin tablet-display {
+  @media screen and (min-width: map.get(bp.$breakpoints, 'mobile-lg')) {
+    @content;
+  }
+}
+
+@mixin tablet-lg-display {
+  @media screen and (min-width: map.get(bp.$breakpoints, 'tablet')) {
+    @content;
+  }
+}
+
+@mixin desktop-display {
+  @media screen and (min-width: map.get(bp.$breakpoints, 'tablet-lg')) {
+    @content;
+  }
+}
+
+@mixin desktop-lg-display {
+  @media screen and (min-width: map.get(bp.$breakpoints, 'desktop')) {
+    @content;
+  }
+}
+
+@mixin desktop-xl-display {
+  @media screen and (min-width: map.get(bp.$breakpoints, 'desktop-lg')) {
+    @content;
+  }
+}
